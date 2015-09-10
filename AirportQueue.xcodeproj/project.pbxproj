@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		A3561AAB1BA173FC003E4BFB /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3561AAA1BA173FC003E4BFB /* main.swift */; };
+		A3561AB21BA1751D003E4BFB /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3561AB11BA1751D003E4BFB /* StreamReader.swift */; settings = {ASSET_TAGS = (); }; };
+		A3561AB41BA178CC003E4BFB /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3561AB31BA178CC003E4BFB /* PriorityQueue.swift */; settings = {ASSET_TAGS = (); }; };
+		A3561AB61BA19662003E4BFB /* Airport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3561AB51BA19662003E4BFB /* Airport.swift */; settings = {ASSET_TAGS = (); }; };
+		A3CC89B21BA24ADC00D2D0B2 /* AirportTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CC89B11BA24ADC00D2D0B2 /* AirportTypes.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,11 @@
 /* Begin PBXFileReference section */
 		A3561AA71BA173FC003E4BFB /* AirportQueue */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AirportQueue; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3561AAA1BA173FC003E4BFB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A3561AB11BA1751D003E4BFB /* StreamReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamReader.swift; sourceTree = "<group>"; };
+		A3561AB31BA178CC003E4BFB /* PriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriorityQueue.swift; sourceTree = "<group>"; };
+		A3561AB51BA19662003E4BFB /* Airport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Airport.swift; sourceTree = "<group>"; };
+		A3CC89B11BA24ADC00D2D0B2 /* AirportTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AirportTypes.swift; sourceTree = "<group>"; };
+		A3CC89B31BA24E2E00D2D0B2 /* ass2data.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ass2data.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +66,12 @@
 		A3561AA91BA173FC003E4BFB /* AirportQueue */ = {
 			isa = PBXGroup;
 			children = (
+				A3CC89B31BA24E2E00D2D0B2 /* ass2data.txt */,
 				A3561AAA1BA173FC003E4BFB /* main.swift */,
+				A3561AB11BA1751D003E4BFB /* StreamReader.swift */,
+				A3561AB31BA178CC003E4BFB /* PriorityQueue.swift */,
+				A3561AB51BA19662003E4BFB /* Airport.swift */,
+				A3CC89B11BA24ADC00D2D0B2 /* AirportTypes.swift */,
 			);
 			path = AirportQueue;
 			sourceTree = "<group>";
@@ -118,7 +132,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3CC89B21BA24ADC00D2D0B2 /* AirportTypes.swift in Sources */,
+				A3561AB21BA1751D003E4BFB /* StreamReader.swift in Sources */,
+				A3561AB61BA19662003E4BFB /* Airport.swift in Sources */,
 				A3561AAB1BA173FC003E4BFB /* main.swift in Sources */,
+				A3561AB41BA178CC003E4BFB /* PriorityQueue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +254,7 @@
 				A3561AB01BA173FC003E4BFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
