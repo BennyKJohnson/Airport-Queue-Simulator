@@ -56,11 +56,11 @@ class Airport: AirportProtocol {
                 let arrivalTime = (components[0] as NSString).doubleValue
                 let serviceTime = (components[1] as NSString).doubleValue
                 let airlineClass = AirlineClass(rawValue: (components[2] as NSString).integerValue)!
-                
-                let newPassenger = Passenger(airlineClass: airlineClass, arrivalTime: arrivalTime, serviceTime: serviceTime)
-                passengers.append(newPassenger)
-                
-                
+                if serviceTime > 0 {
+                    let newPassenger = Passenger(airlineClass: airlineClass, arrivalTime: arrivalTime, serviceTime: serviceTime)
+                    passengers.append(newPassenger)
+                }
+
             }
             
         } else {
